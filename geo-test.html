@@ -4,8 +4,15 @@
         <title>Geo Link Test</title>
     </head>
     <body>
+<!-- 
+https://stackoverflow.com/questions/23232273/is-there-a-way-to-invoke-navigation-from-mobile-browser 
+https://developer.android.com/guide/components/intents-common.html#Maps
+https://gist.github.com/danharper/844382901f7a7b73b90a
+-->
         <p><a href="geo:51.855360,5.873160">Location 51.855360,5.873160</a></p>
         <p><a href="geo:Veur+Lent">Veur Lent</a></p>
         <p><a href="geo:?q=Veur+Lent">Search for Veur Lent</a></p>
+        <p><a href="geo:0,0?q=51.855360,5.873160(Spiegelwaal)">Search for 51.855360,5.873160(Spiegelwaal)</a></p>
+        <p><a href="geo:51.855360,5.873160?q=51.855360,5.873160(Spiegelwaal)">Location 51.855360,5.873160 + search for 51.855360,5.873160(Spiegelwaal)</a></p>
     </body>
 </html>
